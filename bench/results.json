@@ -1,0 +1,38 @@
+{
+  "device": "cpu",
+  "kernel": [
+    {
+      "batch": 256,
+      "dim": 32,
+      "reference_ms": 0.0458,
+      "fused_ms": 0.0304,
+      "speedup": 1.51
+    },
+    {
+      "batch": 512,
+      "dim": 64,
+      "reference_ms": 0.1079,
+      "fused_ms": 0.086,
+      "speedup": 1.25
+    },
+    {
+      "batch": 1024,
+      "dim": 128,
+      "reference_ms": 0.3062,
+      "fused_ms": 0.2002,
+      "speedup": 1.53
+    },
+    {
+      "batch": 2048,
+      "dim": 256,
+      "reference_ms": 1.0588,
+      "fused_ms": 0.6886,
+      "speedup": 1.54
+    }
+  ],
+  "compile": {
+    "eager_step_ms": 112.619,
+    "compiled_step_ms": 113.937,
+    "compile_speedup": 0.99
+  }
+}

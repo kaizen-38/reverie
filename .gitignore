@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+build/
+*.so
+*.egg-info/
+.venv/
+venv/
+# compiled torch extensions cache
+.cache/
+*.ninja_log
+assets/run.log

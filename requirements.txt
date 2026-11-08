@@ -1,0 +1,5 @@
+torch>=2.2
+numpy>=1.24
+# optional, for the benchmark plot and the native kernel build:
+matplotlib>=3.7
+ninja>=1.11
